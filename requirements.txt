@@ -1,1 +1,3 @@
-random
+pytest==8.0.2
+putest-clarity==1.0.1
+mypy==4.10.0

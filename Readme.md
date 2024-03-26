@@ -1,14 +1,17 @@
+### Path to the project
+
+``` 
 cd path/tic-tac-toe-game
-
+``` 
+### Build
+``` 
 docker build --tag tic-tac-toe-game .
-
+``` 
+### Run 
+``` 
 docker run tic-tac-toe-game
-
-docker run -ti --rm \
-       -e DISPLAY=$DISPLAY \
-       -v /tmp/.X11-unix:/tmp/.X11-unix \
-       firefox
-
-
-
+``` 
+### Remove
+``` 
 docker rm tic-tac-toe-game
+``` 
